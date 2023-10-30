@@ -1,6 +1,7 @@
 const mongoose = require('mongoose'); //mongoose is the ODM which eases the interaction with the mongodb
 
-mongoose.connect('mongodb://localhost/info_list_db');
+mongoose.connect('mongodb+srv://user:user123456@infolistdb.gikbjtv.mongodb.net/?retryWrites=true&w=majority'); 
+
 
 const db = mongoose.connection;
 

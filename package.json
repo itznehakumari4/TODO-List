@@ -7,11 +7,12 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vishal",
+  "author": "Neha Kumari",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "mongoose": "^6.8.4"
+    "mongodb": "^6.2.0",
+    "mongoose": "^6.12.2"
   }
 }
